@@ -1,0 +1,27 @@
+.image {
+  display: flex;
+  justify-content: space-evenly;
+}
+img {
+  width: 300px;
+  height: 200px;
+}
+
+#signup-form {
+  padding-top: 50px;
+}
+.hidden {
+  display: none;
+}
+.diplay {
+  padding-top: 50px;
+}
+.diceGame {
+  padding-top: 50px;
+}
+.couponGenerate {
+  padding-top: 50px;
+}
+.congratsImg {
+  padding-top: 5px;
+}

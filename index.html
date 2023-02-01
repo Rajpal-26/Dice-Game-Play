@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Module 2 Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--image section -->
+      <div class="image">
+        <img id="image1" src="image/img1.jpg" alt="" />
+        <img id="image2" src="image/img2.jpg" alt="" />
+        <img id="image3" src="image/img3.jpg" alt="" />
+        <img id="image4" src="image/img4.jpg" alt="" />
+      </div>
+      <!--form section -->
+      <div class="form">
+        <form id="signup-form" class="hidden">
+          <fieldset>
+            <legend><b>Register</b></legend>
+
+            <label for="text">Name</label><br />
+            <input type="text" id="name" /><br /><br />
+            <label for="text">Username</label><br />
+            <input type="text" id="username" /><br /><br />
+            <label for="text">Email id</label><br />
+            <input type="email" id="email" />
+            <br /><br />
+            <button type="submit" id="submit-btn">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+      <!-- Display form data -->
+      <div class="display hidden" id="display_data">
+        <p id="display_name"></p>
+        <p id="display_username"></p>
+      </div>
+
+      <!-- Dice game -->
+      <div class="diceGame hidden" id="dice">
+        <img id="diceImg" src="image/dice2.jpg" alt="dice" />
+        <p id="score"></p>
+        <p id="congrats"></p>
+      </div>
+
+      <!-- Coupon generate -->
+      <div class="couponGenerate">
+        <p id="coupon"></p>
+      </div>
+      <div class="congratsImg hidden" id="complete">
+        <img src="image/congrats.avif" alt="congrats" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
